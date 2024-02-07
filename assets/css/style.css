@@ -136,7 +136,8 @@ h2 {
 
 .area1-text,
 .area2-text,
-.area3-text {
+.area3-text,
+.area4-text {
   margin-bottom: 50px;
   line-height: 25px;
 }
@@ -183,4 +184,16 @@ h2 {
   background-image: url("../images/f5.jpg");
   background-size: cover;
   background-position: top;
+}
+.area4-content {
+  padding: 150px 80px;
+}
+.area4 {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  background-color: #e8e9ee;
+}
+.area4-img1 {
+  background-image: url("../images/bg3.jpg");
+  background-position: left;
 }
